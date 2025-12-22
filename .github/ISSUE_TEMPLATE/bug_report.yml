@@ -1,0 +1,68 @@
+name: Bug Report
+description: Report something that isn't working correctly
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the details below.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug
+      placeholder: Describe the issue...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: I expected...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Create a hook with...
+        2. Wait for...
+        3. See error...
+    validations:
+      required: true
+
+  - type: input
+    id: endpoint
+    attributes:
+      label: API Endpoint (if applicable)
+      description: Which API endpoint were you using?
+      placeholder: "POST /hooks"
+
+  - type: dropdown
+    id: sdk
+    attributes:
+      label: SDK / Integration
+      description: How are you integrating with Posthook?
+      options:
+        - REST API (direct)
+        - Posthook CLI
+        - Node.js / JavaScript
+        - Python
+        - Go
+        - Ruby
+        - Other (please specify below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other details, error messages, screenshots, etc.
+      placeholder: Add any other context here...

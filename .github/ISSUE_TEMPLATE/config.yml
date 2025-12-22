@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Feature Request
+    url: https://github.com/posthook/community/discussions/new?category=feature-requests
+    about: Suggest a new feature or improvement
+  - name: Question
+    url: https://github.com/posthook/community/discussions/new?category=q-a
+    about: Ask a question about using Posthook
+  - name: Security Vulnerability
+    url: mailto:security@posthook.io
+    about: Report a security issue (do not open a public issue)
+  - name: Documentation
+    url: https://docs.posthook.io
+    about: Check the documentation for guides and API reference
