@@ -6,7 +6,6 @@ Welcome to the Posthook community! This is the place to report bugs, request fea
 
 - [Documentation](https://docs.posthook.io)
 - [Changelog](https://docs.posthook.io/changelog)
-- [Roadmap](https://github.com/orgs/posthook/projects/1/views/2)
 - [Status Page](https://status.posthook.io)
 
 ## How to Participate
@@ -34,19 +33,6 @@ Stuck on something? [Ask in Q&A](https://github.com/posthook/community/discussio
 ### Share What You've Built
 
 Using Posthook in a cool way? [Show it off](https://github.com/posthook/community/discussions/new?category=show-and-tell)!
-
-## Roadmap
-
-Our public roadmap shows what we're working on and what's coming next:
-
-| Column | Meaning |
-|--------|---------|
-| **Now** | Actively being built |
-| **Next** | Up next, planned for soon |
-| **Later** | On our radar, not yet scheduled |
-| **Released** | Shipped! Check the [changelog](https://docs.posthook.io/changelog) |
-
-[View the Roadmap →](https://github.com/orgs/posthook/projects/1/views/2)
 
 ## Code of Conduct
 
